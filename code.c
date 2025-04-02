@@ -27,7 +27,6 @@ void setup()
   Serial.begin(9600); // Starts the serial communication
   servoNumber1.attach(MICRO_SERVO_SIGNAL_PIN);
   servoNumber1.write(0);
-  pinMode(MICRO_SERVO_POWER_PIN, OUTPUT);
 }
 
 
