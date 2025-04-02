@@ -29,9 +29,6 @@ void setup()
   servoNumber1.attach(MICRO_SERVO_SIGNAL_PIN);
   servoNumber1.write(0);
   pinMode(MICRO_SERVO_POWER_PIN, OUTPUT);
-  
-  // Sends 5v to MicroServo
-  	digitalWrite(MICRO_SERVO_POWER_PIN, OUTPUT);
 }
 
 
