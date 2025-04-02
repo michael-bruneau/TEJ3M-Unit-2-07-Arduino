@@ -13,7 +13,6 @@ Servo servoNumber1;
 const int TRIG_PIN = 11;
 const int ECHO_PIN = 10;
 const int MICRO_SERVO_SIGNAL_PIN = 8;
-const int MICRO_SERVO_POWER_PIN = 7;
 long duration;
 int distance = 0;
 int trigDelays[] = {2, 10};
