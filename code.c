@@ -2,7 +2,7 @@
   Created by: Michael Bruneau
   Created on: March 2025
 
-  This Arduio program causes micro Servo to to turn back and forth from 180 degress to 0 degrees
+  This Arduio program turns Micro Sevro 180 degrees if an object gets closer than 50cm to a Ultrasonic Distance Sensor 
 */
 
 #include <Servo.h>
